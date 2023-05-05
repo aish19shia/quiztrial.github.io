@@ -1,0 +1,54 @@
+body{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    box-shadow: 12px 15px blue, 25px 20px green;
+}
+
+.calc{
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10% 10% 10% 10%;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+.lab1{
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 3px;
+    padding: 5px;
+
+}
+
+.result{
+    border-radius: 2px;
+    border-style: groove;
+    display: inline;
+    padding: 5px;
+    background-color: lightcyan;
+}
+
+.num{
+    font-size: 25px;
+
+}
+
+.num1{
+    font-size: 25px;
+}
+
+.btn{
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 15px;
+    padding: 3px 3px 3px 3px;
+    background-color: lightsalmon;
+    box-shadow: 5px 3px red;
+}

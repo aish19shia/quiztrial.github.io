@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/qp.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <p class="score">SCORE:{{session.get('score', 0)}}</p><br><br>
+          <h2 id="question">9. The model resembles the planetary system but failed to explain the stability of atom due to: 
+
+          </h2>
+          <div class="img"> 
+          </div>
+          
+          <form action="/qp9" method="post">
+            <label for="">
+                <input type="radio" name="option" value="a" id="" required>Gravitational force is stronger 
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" name="option" value="b" id=""> Electrostatic force is stronger
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" name="option" value="c" id="">Planets carry net charge 
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" name="option" value="d" id="">Electrons carry net charge 
+            </label>
+              <br>
+              <br>
+              {%if message%}
+              <h3>{{message}}</h3>
+                <button type="submit"><a href="/qp10">NEXT</a></button>
+              {%endif%}
+<br>
+              <button type="submit"></a>Submit</button>
+             
+
+          </form>
+
+          
+        
+    
+      </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Press+Start+2P&display=swap');
+
+
+body{
+    margin: 5%;
+    margin-left: 10%;
+    /* padding: 5px; */
+    background-position: center;
+}
+
+.img{
+    float: left;
+    width: 450px;
+    padding-right: 4%;
+    /* margin-bottom: 15%; */
+    padding-bottom: 3%;
+    display: grid;
+    /* height: ; */
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    padding-top: 6%;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 2px;
+}
+
+p{
+    text-align: center;
+    font-size: 36px;
+    text-align: justify;
+    font-family: 'Cutive Mono', monospace;
+
+}
+
+.btn{
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 20px 10px ;
+    border-radius: 25px;
+    font-weight: 100;
+    border: 3px solid black;
+    color: black;
+    background: rgb(193, 226, 236);
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 5px 5px orange;
+    font-size: 20px;
+    
+
+}
+
+.home{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.msg{
+    margin-top: 6%;
+}

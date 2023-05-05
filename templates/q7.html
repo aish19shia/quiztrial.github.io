@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/qp.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <p class="score">SCORE:{{session.get('score', 0)}}</p><br><br>
+          <h2 id="question">7. Electrons would fall into the nucleus due to:
+          </h2>
+          <div class="img">
+          </div>
+          
+          <form action="/qp7" method="post">
+            <label for="">
+                <input type="radio" name="option" value="a" id="" required>Increased acceleration of electrons 
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" name="option" value="b" id="">Radiation of energy caused by acceleration
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" name="option" value="c" id="">Both a and b
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" name="option" value="d" id="">None of the above 
+            </label>
+              <br>
+              <br>
+              {%if message%}
+              <h3>{{message}}</h3>
+              <button type="submit"><a href="/qp8">Next</a></button>
+              {%endif%}
+<br>
+              <button type="submit"></a>Submit</button>
+             
+
+          </form>
+
+          
+        
+    
+      </div>
+</body>
+</html>

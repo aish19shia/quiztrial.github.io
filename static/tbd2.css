@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+
+
+
+body{
+    background-color: rgba(231, 231, 27, 0.39);
+    text-align: center;
+}
+
+.box{
+    margin-left: 15%;
+    margin-right: 15%;
+    /* margin-top: 10%; */
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 50px;
+    padding: auto;
+    background-color: rgba(70, 86, 163, 0.8);
+    box-shadow: 10px 20px 8px red;
+}
+
+h1{
+    color: black;
+    border-width: 2.8px;
+    border-style: groove;
+    /* border-radius: 30px; */
+    border-color: black;
+    text-align: center;
+    font-size: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 5px 5px red;  
+    padding: 15px;
+    /* font-family: 'Cinzel Decorative', cursive; */
+    font-family: 'Megrim', cursive;
+}
+
+
+h2{
+    text-align: justify;
+    font-size: 30px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-radius: 20px; */
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+    background-color: lightpink;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 2%;
+    box-shadow: 7px 10px greenyellow, 7px 10px yellow;
+
+}
+
+.question{
+    margin: auto;
+    border-width: 2 px;
+    border-style: solid;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: lightgoldenrodyellow;
+    font-size: 25px;
+    box-shadow: 10px 5px black;
+    
+    
+
+    
+}
+
+
+.score{
+    margin: auto;
+    border-width: 2 px;
+    border-style: solid;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: lightgoldenrodyellow;
+    font-size: 25px;
+    box-shadow: 10px 5px black;
+
+}
+
+.opt{
+    text-align: justify;
+    border-width: 5px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgba(250, 250, 210, 0.92);
+    box-shadow: 4px 4px 3px darkmagenta ;
+    
+    
+    
+
+}
+
+
+.options{
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.box2{
+    text-align: left;
+}
+
+.btn{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px ;
+    border-radius: 25px;
+    font-weight: 100;
+    border: 3px solid black;
+    color: black;
+    background: rgb(193, 226, 236);
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    box-shadow: 5px 5px orange;
+}
+
+span{
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+button:hover span{
+    width: 100%;
+    color: black;
+}
+
+button:hover{
+    border: none;
+    color: darkmagenta;}
+
+.que{
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.sco{
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img{
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 30px;
+    border-width: 5px;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+.box{
+    border-radius: 25px;
+    border-style: groove;
+    border-color: black;
+    border-width: 3px;
+    display: inline-block;
+    padding: 10px 70px 10px 70px;
+    box-shadow: 10px 15px rgb(224, 255, 255, 0.8);
+    opacity: 0.8;
+    background-color: white;
+}
+
+body{
+    margin-left: 37%;
+    margin-right: 40%;
+    margin-top: 25px;
+    background-image: url(/static/scenery.avif);
+}
+
+.label{
+    font-size: 23px;
+    font-family: 'Cantata One', serif;
+}
+
+.box1{
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
+.btn{
+    border-radius: 25px;
+    border-color: black;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(193, 61, 81);
+    color: white;
+    box-shadow: 5px 8px black;
+
+}
+
+.box3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.msg{
+    text-align: justify;
+    font-size: x-large;
+
+
+}
+
+h1{
+    font-family: 'Old Standard TT', serif;
+    font-size: 40px;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+body{
+    background-color: bisque;
+    /* padding: 5% 10%; */
+    background-image: url(./photo.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 125px 100px 125px 100px;
+}
+
+.heading{
+    font-size: 110px;
+    text-align: center;
+    /* font-family: 'Tapestry', cursive; */
+    font-family: 'PT Serif', serif;
+    color: black;
+
+    
+}
+
+.heading2{
+    font-size: 45px;
+    text-align: justify;
+    border-radius: 5px;
+    border-width: 5px;
+    background-color: lightgrey;
+    box-shadow: gray;
+    padding: 25px 28px 25px 28px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px 5px 5px 5px;
+   
+}
+
+.options{
+    font-size: 28px;
+}
+
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px ;
+    border-radius: 25px;
+    font-weight: 100;
+    border: 2px solid black;
+    color: black;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+span{
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+button:hover span{
+    width: 100%;
+    color: black;
+}
+
+button:hover{
+    border: none;
+    color: maroon;}
+
+h2{
+    text-align: justify;
+    font-size: 25px;
+}
+
+h3{
+    text-align: justify;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
